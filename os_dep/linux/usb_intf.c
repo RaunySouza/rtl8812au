@@ -209,6 +209,7 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 	{USB_DEVICE(0x056E, 0x400E) , .driver_info = RTL8821}, /* ELECOM -  ELECOM */
 	{USB_DEVICE(0x056E, 0x400F) , .driver_info = RTL8821}, /* ELECOM -  ELECOM */
 	{USB_DEVICE(0x20f4, 0x804b), .driver_info = RTL8821}, /* TRENDnet  */
+	{USB_DEVICE(0x2357, 0x011E), .driver_info = RTL8821}, /* TP Link - T2U Nano */
 #endif
 
 #ifdef CONFIG_RTL8192E
